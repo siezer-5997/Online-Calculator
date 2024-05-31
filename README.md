@@ -133,9 +133,41 @@ This project is a simple online calculator designed using HTML, CSS, and JavaScr
 
 2. **CSS**:
     The CSS for this project is included directly within the `<style>` tags in the HTML file. It defines the appearance of the table and its cells.
+    ```css
+    <style>
+        table {
+            border: 2px double black;
+            border-spacing: 10px;
+        }
+        tr {
+            margin: 10px;
+        }
+    </style>
+    ```
 
 3. **JavaScript**:
     The JavaScript functions are included within `<script>` tags in the HTML file. These functions manage the calculator's functionality, including handling button clicks and performing calculations.
+    ```Javascript
+    <script>
+        function addToScreen(value) {
+            var screen = document.getElementById("screen");
+            screen.value += value;
+        }
+
+        function clearScreen() {
+            document.getElementById("screen").value = "";
+        }
+
+        function calculateFinalResult() {
+            var screen = document.getElementById("screen");
+            try {
+                screen.value = eval(screen.value);
+            } catch (error) {
+                screen.value = "Error";
+            }
+        }
+    </script>
+    ```
 
 ## Requirements
 To run this project, you need:
@@ -143,10 +175,13 @@ To run this project, you need:
 - Basic knowledge of HTML, CSS, and JavaScript.
 - A text editor or IDE for editing the code (e.g., VSCode, Sublime Text).
 
-## How to Use
-1. Open the `calculator.html` file in your web browser.
+## To get started
+1. Clone the repository from github:
+```sh
+   git clone https://github.com/siezer-5997/Online-Calculator.git
+   ```
+2. Open the `calculator.html` file in your web browser.
 2. Use the calculator buttons to input numbers and operators.
 3. Click the `=` button to calculate the result.
 4. Click the `Clear` button to reset the calculator screen.
 
-Feel free to customize the design and functionality according to your needs.

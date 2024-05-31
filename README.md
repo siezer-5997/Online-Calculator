@@ -1,5 +1,5 @@
 # Online Calculator
-[!Calculator image](https://github.com/siezer-5997/Online-Calculator/blob/main/calculator.png?raw=true)
+![image](https://github.com/siezer-5997/Online-Calculator/blob/main/calculator.png?raw=true)
 ## Description
 This project is a simple online calculator designed using HTML, CSS, and JavaScript. The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It features a clear button to reset the screen and parentheses for complex expressions.
 
@@ -174,6 +174,7 @@ To run this project, you need:
 - A modern web browser (e.g., Chrome, Firefox, Safari).
 - Basic knowledge of HTML, CSS, and JavaScript.
 - A text editor or IDE for editing the code (e.g., VSCode, Sublime Text).
+![alt text](image.png)
 
 ## To get started
 1. Clone the repository from github:
@@ -184,4 +185,7 @@ To run this project, you need:
 2. Use the calculator buttons to input numbers and operators.
 3. Click the `=` button to calculate the result.
 4. Click the `Clear` button to reset the calculator screen.
+
+### Detail Design Presentation
+![calculator]https://docs.google.com/presentation/d/1tk4bjVZ95otcAjiNMmYUUWfkkI_RleeH-pGp4vklnZM/edit?usp=sharing
 

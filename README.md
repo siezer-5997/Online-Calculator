@@ -187,5 +187,5 @@ To run this project, you need:
 4. Click the `Clear` button to reset the calculator screen.
 
 ### Detail Design Presentation
-![calculator]https://docs.google.com/presentation/d/1tk4bjVZ95otcAjiNMmYUUWfkkI_RleeH-pGp4vklnZM/edit?usp=sharing
+[Online Calculator](https://docs.google.com/presentation/d/1tk4bjVZ95otcAjiNMmYUUWfkkI_RleeH-pGp4vklnZM/edit?usp=sharing)
 

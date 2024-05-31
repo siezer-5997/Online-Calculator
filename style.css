@@ -1,0 +1,7 @@
+table {
+    border: 2px double black;
+    border-spacing: 10px;
+}
+tr {
+    margin: 10px;
+}
